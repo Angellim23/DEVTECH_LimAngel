@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> Taxi Booking Form </title>
+     
+    </head>
+    <body>
+        <h1> Taxi Booking Form </h1>
+
+        <form> 
+        <!-- Name -->
+         <label for="name">Name: </label><br>
+         <input type="text" id=" Name" name="Name"><br>
+        
+
+         <!-- Phone -->
+         <label for="phone">Phone: </label><br>
+         <input type="number" id="Phone" name="Phone"><br>
+     
+
+         <!--  email -->
+         <label for="Email">Email: </label><br>
+         <input type="text" id="Email" name="Email"><br>
+
+         <label for="taxi"> Which taxi do you require?</label><br>
+         <input type="radio" id="grab" name="taxi" valu="Grab">
+         <label for="grab">Grab</label><br>
+         <input type="radio" id="Uber" name="taxi" valu="Uber">
+         <label for="uber">Uber</label><br>
+         <input type="radio" id="angkas" name="taxi" value="Angkas">
+         <label for="angkas">Angkas</label><br><br>
+
+         <label for="extras">Extras: </label><br>
+         <input type="checkbox" id="babyseat" name="extras" value="Baby seat">
+         <label for="baby seat">Baby seat</label<br>
+         <input type="checkbox" id="WheelchairAccess" name="extras" value="WheelchairAccess">
+         <label for="wheelchairAccess">WheelchairAccess</label><br>
+         <input type="checkbox" id="dogSeater" name="extras" value="Dog Seater">
+         <label for="dogSeater">DogSeater</label>
+         <br><br>
+
+         <label for="Pickup Daate/Time">Pickup Date/Time</label>
+         <input type="date" id="birthday" name="birthday">
+         <br><br>
+               
+
+         <label for="dropdown">Pickup Place: </label><br>
+         <select id="dropdown" name="dropdown"> 
+            <option value="Taxi office">Taxi office</option>
+            <option value="Town Hall">Town Hall</option>
+            <option value="I pass HTML Exam">I pass HTML Exam</option> 
+            
+        </select><br><br>
+
+        <label for="dropoff">Dropoff Place: </label><br>
+        <input type="text" id="dropoff" name="dropoff"><br><br>
+
+        <label for="instructions">Special instruction: </label><br>
+        <textarea id="instructions" name="instructions"></textarea><br><br>
+
+        <input type="submit" value="Submit Booking">
+
+    </form>
+
+
+    </body>
+</html>
