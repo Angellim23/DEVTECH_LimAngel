@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Group3 Handson</title>
+    <style>
+        .table-auto {
+            table-layout: auto;
+            width: 150px;
+            border-collapse: collapse;
+        }
+        table,th,td {
+            border: 1px solid black;
+        }
+        th,td{
+            padding: 5px;
+            text-align: left;
+        }
+        .table-top {
+            empty-cells: top;
+            width: 200px;
+            border-collapse: separate;
+        }
+        caption{
+            caption-side: top;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p><strong>Table with table-layout auto</strong></p>
+    <table class="table-layout-auto">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+
+            <td>Angel Mae</td>
+            <td>Lim</td>
+            <td>2nd Year</td>
+        </tr>
+        <tr>
+            <td>Sigrid</td>
+            <td> Balajadia</td>
+            <td>2nd Year</td>
+        </tr>
+    </table>
+
+    <p><strong>Table with caption side: top</strong></p>
+    <table class="table-top">
+        <caption>2nd year BSIS</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Angel Mae</td>
+            <td>Lim</td>
+            <td>2nd Year</td>
+        </tr>
+        <tr>
+            <td>Sigrid</td>
+            <td> Balajadia</td>
+            <td>2nd Year</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
